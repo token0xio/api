@@ -1,0 +1,22 @@
+{
+  "name": "icosuite",
+  "version": "0.0.1",
+  "description": "API for ICOsuite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icosuite/api.git"
+  },
+  "keywords": [
+    "ico"
+  ],
+  "author": "Andrey Stehno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icosuite/api/issues"
+  },
+  "homepage": "https://github.com/icosuite/api#readme"
+}
