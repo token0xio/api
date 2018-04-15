@@ -4,8 +4,8 @@
   requireLs = require('require-ls');
   ref$ = require('superagent'), get = ref$.get, post = ref$.post;
   ref$ = require('prelude-ls'), map = ref$.map, pairsToObj = ref$.pairsToObj;
-  presaleAbi = require('./blockchain/.out/ProdPrivateSale.abi.json');
-  tokenAbi = require('./blockchain/.out/ProdToken.abi.json');
+  presaleAbi = require('../blockchain/.out/ProdPrivateSale.abi.json');
+  tokenAbi = require('../blockchain/.out/ProdToken.abi.json');
   getProjectsBuilder = function(url){
     return function(cb){
       return get(url + "/api/projects").end(function(err, data){
