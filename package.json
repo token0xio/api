@@ -1,27 +1,27 @@
 {
-  "subversion": 8,
-  "dependencies": {
-    "superagent": "^3.8.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/token0xio/api.git"
   },
-  "homepage": "https://github.com/tokenizeme/api#readme",
-  "uperversion": "0.0",
-  "description": "API for ICOsuite",
-  "main": "tokenizeme.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tokenizeme/api.git"
+  "main": "token0x.js",
+  "description": "API for Token0x",
+  "uperversion": "0.0",
+  "homepage": "https://github.com/token0xio/api#readme",
+  "bugs": {
+    "url": "https://github.com/token0xio/api/issues"
   },
-  "version": "0.0.8",
-  "name": "tokenizeme",
+  "license": "ISC",
+  "author": "Andrey Stehno",
   "keywords": [
     "ico"
   ],
-  "author": "Andrey Stehno",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tokenizeme/api/issues"
+  "name": "token0x",
+  "version": "0.0.9",
+  "subversion": 9,
+  "dependencies": {
+    "superagent": "^3.8.2"
   }
 }

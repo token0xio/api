@@ -1,15 +1,15 @@
 ### ICO suite API
 
-This nodejs module for ICOsuite integration
+This nodejs module for Token0x integration
 
 Status: Implemented MVP
 
-[Website](http://icosuite.network) | [Discuss](https://t.me/icosuite)
+[Website](http://token0x.io) | [Discuss](https://t.me/token0x)
 
 #### Use API
 
 ```
-npm i icosuite --save
+npm i token0x --save
 ```
 
 ```Javascript
@@ -17,9 +17,9 @@ npm i icosuite --save
 
 var web3 = if window ? window.web3 : require('web3');
 
-var nodeURI = "https://icosuite.network"
+var nodeURI = "https://token0x.io"
 
-var icosuite = require('icosuite')(window.web3, nodeURI);
+var token0x = require('token0x')(window.web3, nodeURI);
 
 var showResult = function(err, result) {
     console.log(err, result);
@@ -27,31 +27,31 @@ var showResult = function(err, result) {
 
 // Add New Project
 
-icosuite.addProject(project, showResult);
+token0x.addProject(project, showResult);
 
 
 // Get list of public projects
 
-icosuite.getProjects(showResult);
+token0x.getProjects(showResult);
 
 
 // Get project details
 
-icosuite.getProjectDetails('BTC', showResult);
+token0x.getProjectDetails('BTC', showResult);
 
 
 // Get tokensale contract
 
-icosuite.tokensaleContractAt('0x....') //use contract methods
+token0x.tokensaleContractAt('0x....') //use contract methods
 
 
 // Get token contract
 
-icosuite.tokenContractAt('0x....') //use contract methods
+token0x.tokenContractAt('0x....') //use contract methods
 
 ```
 
 
 -----------------
 
-icosuite.network
+token0x.io
