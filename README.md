@@ -9,12 +9,11 @@ Status: Implemented MVP
 #### Use API
 
 ```
-npm i icosuite
+npm i icosuite --save
 ```
 
 ```Javascript
 
-//API is UNDER CONSTRUCTION
 
 var web3 = if window ? window.web3 : require('web3');
 

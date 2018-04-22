@@ -1,22 +1,27 @@
 {
-  "name": "icosuite",
-  "version": "0.0.1",
+  "subversion": 8,
+  "dependencies": {
+    "superagent": "^3.8.2"
+  },
+  "homepage": "https://github.com/tokenizeme/api#readme",
+  "uperversion": "0.0",
   "description": "API for ICOsuite",
-  "main": "index.js",
+  "main": "tokenizeme.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/icosuite/api.git"
+    "url": "git+https://github.com/tokenizeme/api.git"
   },
+  "version": "0.0.8",
+  "name": "tokenizeme",
   "keywords": [
     "ico"
   ],
   "author": "Andrey Stehno",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/icosuite/api/issues"
-  },
-  "homepage": "https://github.com/icosuite/api#readme"
+    "url": "https://github.com/tokenizeme/api/issues"
+  }
 }
