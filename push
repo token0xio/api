@@ -1,4 +1,4 @@
-lsc -c tokenizeme.ls
+lsc -c token0x.ls
 cp \../blockchain/.out/ProdPrivateSale.abi.json ./ProdPrivateSale.abi.json
 cp \../blockchain/.out/ProdToken.abi.json ./ProdToken.abi.json
 jq .subversion=.subversion+1 package.json > output.json
