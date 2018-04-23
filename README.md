@@ -1,4 +1,4 @@
-### ICO suite API
+### Token0x API
 
 This nodejs module for Token0x integration
 
