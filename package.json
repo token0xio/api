@@ -1,27 +1,27 @@
 {
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/token0xio/api/issues"
-  },
-  "main": "token0x.js",
-  "description": "API for Token0x",
-  "uperversion": "0.0",
-  "homepage": "https://github.com/token0xio/api#readme",
+  "subversion": 14,
   "dependencies": {
     "superagent": "^3.8.2"
   },
-  "subversion": 13,
-  "author": "Andrey Stehno",
-  "keywords": [
-    "ico"
-  ],
-  "name": "token0x",
-  "version": "0.0.13",
+  "homepage": "https://github.com/token0xio/api#readme",
+  "uperversion": "0.0",
+  "description": "API for Token0x",
+  "main": "token0x.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/token0xio/api.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.14",
+  "name": "token0x",
+  "keywords": [
+    "ico"
+  ],
+  "author": "Andrey Stehno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/token0xio/api/issues"
   }
 }
