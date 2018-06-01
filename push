@@ -1,6 +1,6 @@
 sh update
-jq .subversion=.subversion+1 package.json > output.json
-jq .version=.uperversion+\".\"+\(.subversion\|tostring\) output.json > package.json
+#jq .subversion=.subversion+1 package.json > output.json
+#jq .version=.uperversion+\".\"+\(.subversion\|tostring\) output.json > package.json
 rm output.json
 git add -u
 git add .
