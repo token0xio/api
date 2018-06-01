@@ -49,6 +49,29 @@ token0x.tokensaleContractAt('0x....') //use contract methods
 
 token0x.tokenContractAt('0x....') //use contract methods
 
+
+// Claim tokens 
+// You need to pass KYC bofore using this method
+
+query = {
+    contractAddress: '0x...',
+    token: 'BTC'
+};
+
+token0x.claimTokens(query, showResult);
+
+
+// Whitelist Buy 
+// You need to be registered in Whitelist before using this method
+
+query = {
+    contractAddress: '0x...',
+    token: 'BTC',
+    amountEthers: '1'
+};
+
+token0x.whitelistBuy(query, showResult);
+
 ```
 
 

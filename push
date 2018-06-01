@@ -1,6 +1,4 @@
-lsc -c token0x.ls
-cp \../blockchain/.out/ProdPrivateSale.abi.json ./ProdPrivateSale.abi.json
-cp \../blockchain/.out/ProdToken.abi.json ./ProdToken.abi.json
+sh update
 jq .subversion=.subversion+1 package.json > output.json
 jq .version=.uperversion+\".\"+\(.subversion\|tostring\) output.json > package.json
 rm output.json
